@@ -2,6 +2,9 @@
 
 A Simple Customizable ProgressView UI Element with Animation (iOS)
 
+![Examples](https://www.evernote.com/shard/s6/sh/e03cf6dd-9b01-45e3-b2b4-b29cd72c7c54/6534fd4eb162c99c39713a2a27405dbb/res/5f39423c-d665-4079-ae55-e053d7504718/skitch.png)
+
+
 ## Usage
 
 Default
