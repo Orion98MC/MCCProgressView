@@ -138,7 +138,7 @@
   NSAssert(_trackWidth > 0.0, @"Invalid track width");
   self.trackWidth = _trackWidth;
   
-  NSLog(@"Progress: %@ (%f; %f)", NSStringFromCGRect(frame), width, frame.size.height - 2.0 * width);
+  // NSLog(@"Progress: %@ (%f; %f)", NSStringFromCGRect(frame), width, frame.size.height - 2.0 * width);
   return self;
 }
 

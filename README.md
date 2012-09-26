@@ -1,6 +1,6 @@
 ## Description
 
-A simple customizable progressView UI element with animation
+A Simple Customizable ProgressView UI Element with Animation (iOS)
 
 ## Usage
 
