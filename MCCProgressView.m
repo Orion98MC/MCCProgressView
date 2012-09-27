@@ -122,7 +122,7 @@
 @end
 
 @interface MCCProgressView ()
-@property (retain, nonatomic) MCCProgressViewLayer *drawingLayer;
+@property (assign, nonatomic) MCCProgressViewLayer *drawingLayer;
 @end
 
 @implementation MCCProgressView
