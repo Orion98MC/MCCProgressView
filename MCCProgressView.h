@@ -41,6 +41,8 @@
 
 @interface MCCProgressView : UIView
 
++ (float)animationDuration;
+
 - (id)initWithStrokeWidth:(CGFloat)width frame:(CGRect)frame;
 
 /* Configure the look */

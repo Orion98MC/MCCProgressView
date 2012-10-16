@@ -128,6 +128,9 @@
 @implementation MCCProgressView
 @synthesize drawingLayer;
 
+static float animationDuration = 0.3;
++ (float)animationDuration { return animationDuration; }
+
 - (id)initWithStrokeWidth:(CGFloat)width frame:(CGRect)frame {
   self = [self initWithFrame:frame];
   if (!self) return nil;
@@ -168,6 +171,7 @@
   return self;
 }
 
+
 - (void)setTrackWidth:(CGFloat)value      { drawingLayer.trackWidth = value; }
 - (void)setStrokeWidth:(CGFloat)value     { drawingLayer.strokeWidth = value; }
 
@@ -204,7 +208,7 @@
   }
   
   CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"progress"];
-  animation.duration = 0.5;
+  animation.duration = animationDuration;
   animation.fromValue = [NSNumber numberWithFloat:drawingLayer.progress];
   animation.toValue = [NSNumber numberWithFloat:value];
   [drawingLayer addAnimation:animation forKey:@"progressAnimation"];
