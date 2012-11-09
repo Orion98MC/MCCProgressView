@@ -164,6 +164,7 @@ static float animationDuration = 0.3;
   drawingLayer.strokeShadow = CGSizeZero;
   drawingLayer.strokeShadowColor = [UIColor blackColor];
   drawingLayer.strokeShadowBlur = 0.8;
+  drawingLayer.contentsScale = [UIScreen mainScreen].scale;
   
   [self.layer addSublayer:drawingLayer];
   [drawingLayer setNeedsDisplay];
